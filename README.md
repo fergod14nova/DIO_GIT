@@ -1,12 +1,12 @@
 # Bootcamp Santander - DIO
 
-Olá, bem vindo ao meu repositório do curso de GIT da **DIgital Inovation One**
+Olá, bem vindo ao meu repositório do curso de GIT & GitHub da **DIgital Inovation One**
 
 Create By Jorge Luiz de Alencar, :eagle:
 
 
 
-Então, vamos lá?
+### Então, vamos lá?
 
 - Primeiro crie uma pasta;
 - Use o comando "_cd_ " no terminal do windows para navegar para dentro dessa pasta
@@ -20,8 +20,30 @@ Então, vamos lá?
 
 ## ESTADOS DOS ARQUIVOS DO GIT (TRACKED)
 
-- [ ] UNTRAKED - Não traçado, ou seja, não está no diretório do GIT
-- [ ] UNMODIFIED - Não Modificado
-- [ ] MODIFIED - Modificado (precisa ser Adicionado ao Staged e depois Commitado)
-- [ ] STAGED - Arquivos esperando para serem Commitados, ou seja, voltam para o estado de Unmodified e subscrevem os arquivos originais. 
+- [ ] **UNTRAKED** - Não traçado, ou seja, não está no diretório do GIT
+- [ ] **UNMODIFIED** - Não Modificado
+- [ ] **MODIFIED** - Modificado (precisa ser Adicionado ao Staged e depois Commitado)
+- [ ] **STAGED** - Arquivos esperando para serem Commitados, ou seja, voltam para o estado de Unmodified e subscrevem os arquivos originais. 
+
+
+
+## Subindo arquivos para o github
+
+```
+-----------------------------------------------------------------------
+git remote add origin https://github.com/fergod14nova/DIO_GIT.git
+git branch -M main
+git push -u origin main
+---------------------------------------------------------------------------
+```
+
+o comando _git remote -v_ vai listar as listas de repositórios remotos cadastrados.
+
+o comando _git push origin master_ serve para subir os arquivos para o repositório. 
+
+**É necessário fazer autenticação com a conta do github**
+
+
+
+
 
