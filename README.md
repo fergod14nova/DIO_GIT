@@ -45,7 +45,7 @@ o comando _git push origin master_ serve para subir os arquivos para o repositó
 
 
 
-### RESOLVENDO CONFLITOS
+### PUXANDO ARQUIVOS DE DENTRO DO GITHUB
 
-Então...
+Então... O comando é o _git push -u origin main_ ou _git pull origin master_
 
