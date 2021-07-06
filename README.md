@@ -47,5 +47,6 @@ o comando _git push origin master_ serve para subir os arquivos para o repositó
 
 ### RESOLVENDO CONFLITOS
 
-Então...
+Então... O comando é o seguinte. git pull origin master
+
 
